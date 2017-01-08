@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_property"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btn_choose_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:layout_alignParentBottom="true"
+        android:text="Take Image"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:layout_alignParentBottom="true"
+        android:text="Upload to Amazon Bucket"
+        android:textColor="@android:color/white"/>
+
+
+</RelativeLayout>
